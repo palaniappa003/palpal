@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+body, ul {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(181, 255, 108);
+}
+.sidebar {
+    width: 200px;
+    height: 150px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin: 55px 10px;
+    padding: 15px; 
+}
+.sidebar button {
+    height: 50px;
+    color: rgb(0, 51, 109);
+    border: none;
+    padding: 15px; 
+    margin: 5px 5px;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.3s; 
+    width:80%
+}
+
+.content {
+    margin-left: 220px; /* Adjust this margin to match your sidebar width */
+    padding: 20px;
+    color: #6a0101;
+}
+
+.content p {
+    font-size: 24px;
+    color: #430a0a;
+}
+.icon {
+    padding: 10px; 
+    margin: -31px 125px;
+    width: 1px;
+    height: 10px;
+    background-color: black;
+}
+
+</style>
+</head>
+<body>
+    <div class="sidebar">
+        <button class="but">Home page<div class="icon"></div></button>
+        <button class="but">Musings<div class="icon"></div></button>
+        <button class="but">My Town<div class="icon"></div></button>
+        <button class="but">Links<div class="icon"></div></button>
+    </div>
+    <div class="content">
+        <h1>My First Styled Page</h1>
+        <p>Welcome to my first page<br><br>It lacks images but at least it has style.And it has links<br>
+           <br> There should be more but I dont know what yet<br>
+            ........................................................................................................................
+        <br><br><i>Made 5 April 2004<br>by myself.</i>
+        </p>
+    </div>
+</body>
+</html>
